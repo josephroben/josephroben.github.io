@@ -1,0 +1,38 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+	background-position: center;
+	background-image: url(virtual.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+}
+
+h2 {
+	font-size: 70px;
+	text-align: center;
+	/*font-style: italic;*/
+	font-family: 'Ubuntu', sans-serif;
+	color: #69F9F4;  /*#FDFF6B;*/
+	text-shadow: 4px 5px #2A6E9E;
+}
+
+h3 {
+	font-size: 45px;
+	text-align: center;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Places the button on the center of screen */
+div {
+	text-align: center;
+}
+
+.btn-warning:hover {
+	color: #ECF2FF;
+}
