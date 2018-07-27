@@ -28,10 +28,29 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  /*border-color: #F05F44; */
+}
+
 /* Places the button on the center of screen */
 div {
 	text-align: center;
 }
+
+header.startup hr {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.btn {
+	border-radius: 300px;
+}
+
+/*.btn-xl {
+  padding: 1rem 2rem; 
+}*/
 
 .btn-warning:hover {
 	color: #ECF2FF;
